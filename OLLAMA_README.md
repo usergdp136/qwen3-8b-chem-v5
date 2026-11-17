@@ -32,7 +32,7 @@ Test sigillato (17 novembre 2026, n = 2.529): 328 domande guadagnate, 201 perse;
 
 **Per caricare l'adattatore grezzo con PEFT / Transformers** (non serve se usi Ollama): scarica prima **Qwen/Qwen3-8B** (8B, non 14B), poi `PeftModel.from_pretrained(..., "odelpa/qwen3-8b-chem-v5", subfolder="adapter")`, con `enable_thinking=False`. Si può usare la stessa quantizzazione 4 bit NF4 della valutazione, oppure fondere i pesi con `merge_and_unload()`. Esempio completo: [scheda su Hugging Face](https://huggingface.co/odelpa/qwen3-8b-chem-v5) e `examples/load_adapter.py` sul [GitHub](https://github.com/usergdp136/qwen3-8b-chem-v5).
 
-**Link.** Articolo: in preparazione su Zenodo (nessun DOI ancora) · Adattatore: [Hugging Face](https://huggingface.co/odelpa/qwen3-8b-chem-v5) · Codice e scheda: [GitHub](https://github.com/usergdp136/qwen3-8b-chem-v5)
+**Link.** Articolo (DOI): [10.5281/zenodo.24326182](https://doi.org/10.5281/zenodo.24326182) · Adattatore: [Hugging Face](https://huggingface.co/odelpa/qwen3-8b-chem-v5) · Codice e scheda: [GitHub](https://github.com/usergdp136/qwen3-8b-chem-v5)
 
 **Licenza.** Apache-2.0. Modello base Qwen3-8B © Alibaba Cloud / Qwen team, Apache-2.0. Una parte dei dati di addestramento deriva da Wikipedia (CC BY-SA 4.0).
 
@@ -74,7 +74,7 @@ Sealed test (17 November 2026, n = 2,529): 328 items gained, 201 lost; netmon re
 
 **To load the raw adapter with PEFT / Transformers** (not needed if you use Ollama): download **Qwen/Qwen3-8B** first (8B, not 14B), then `PeftModel.from_pretrained(..., "odelpa/qwen3-8b-chem-v5", subfolder="adapter")`, with `enable_thinking=False`. You can use the same 4-bit NF4 option as the evaluation, or merge the weights with `merge_and_unload()`. Full snippet: [Hugging Face model card](https://huggingface.co/odelpa/qwen3-8b-chem-v5) and `examples/load_adapter.py` on [GitHub](https://github.com/usergdp136/qwen3-8b-chem-v5).
 
-**Links.** Article: forthcoming on Zenodo (no DOI yet) · Adapter: [Hugging Face](https://huggingface.co/odelpa/qwen3-8b-chem-v5) · Card and code: [GitHub](https://github.com/usergdp136/qwen3-8b-chem-v5)
+**Links.** Paper (DOI): [10.5281/zenodo.24326182](https://doi.org/10.5281/zenodo.24326182) · Adapter: [Hugging Face](https://huggingface.co/odelpa/qwen3-8b-chem-v5) · Card and code: [GitHub](https://github.com/usergdp136/qwen3-8b-chem-v5)
 
 **License.** Apache-2.0. Base model Qwen3-8B © Alibaba Cloud / Qwen team, Apache-2.0. Some training data is derived from Wikipedia (CC BY-SA 4.0).
 

@@ -23,7 +23,7 @@ tags:
 
 A QLoRA adapter (rank 16, α = 32, dropout 0.05, all attention and MLP projections: q, k, v, o, gate, up, down; about 43.6 M trainable parameters) for **Qwen3-8B** (8B, not 14B). It was trained for one epoch on 11,839 permissively licensed chemistry examples (4.70 M tokens) on a single 12 GB laptop GPU (MSI, NVIDIA RTX 4080). Some training examples are Wikipedia-derived (CC BY-SA 4.0); see *Limitations*.
 
-The paper is forthcoming on Zenodo. No DOI has been reserved yet; none is invented here.
+Paper (DOI): [10.5281/zenodo.24326182](https://doi.org/10.5281/zenodo.24326182).
 
 ![Sealed-test and development accuracy, base vs adapter](figures/fig1_accuracy_en.png)
 
@@ -136,7 +136,7 @@ This adapter has no tools of its own and does not open network connections. Duri
 - Hugging Face (this repo): [odelpa/qwen3-8b-chem-v5](https://huggingface.co/odelpa/qwen3-8b-chem-v5)
 - GitHub (card, figures, loading example; no weights): [usergdp136/qwen3-8b-chem-v5](https://github.com/usergdp136/qwen3-8b-chem-v5)
 - Ollama: [ollamagdp/qwen3-8b-chem-v5](https://ollama.com/ollamagdp/qwen3-8b-chem-v5)
-- Article: forthcoming on Zenodo
+- Paper (DOI): [10.5281/zenodo.24326182](https://doi.org/10.5281/zenodo.24326182)
 
 ---
 
@@ -144,7 +144,7 @@ This adapter has no tools of its own and does not open network connections. Duri
 
 Adattatore QLoRA (rango 16, α = 32, dropout 0,05, proiezioni di attenzione e MLP; circa 43,6 M parametri addestrabili) per **Qwen3-8B** (8B, non 14B). Addestrato per un'epoca su 11.839 esempi di chimica con licenze permissive (4,70 M token) su una sola GPU da portatile da 12 GB. Una parte degli esempi deriva da Wikipedia (CC BY-SA 4.0); vedi *Limiti*.
 
-L'articolo è in preparazione su Zenodo. Non è stato riservato alcun DOI; qui non ne viene inventato nessuno.
+Articolo (DOI): [10.5281/zenodo.24326182](https://doi.org/10.5281/zenodo.24326182).
 
 ### Metodo
 
@@ -232,4 +232,4 @@ Questo adattatore non ha strumenti propri e non apre connessioni di rete. Durant
 - Hugging Face: [odelpa/qwen3-8b-chem-v5](https://huggingface.co/odelpa/qwen3-8b-chem-v5)
 - GitHub (scheda, figure, esempio di caricamento; senza pesi): [usergdp136/qwen3-8b-chem-v5](https://github.com/usergdp136/qwen3-8b-chem-v5)
 - Ollama: [ollamagdp/qwen3-8b-chem-v5](https://ollama.com/ollamagdp/qwen3-8b-chem-v5)
-- Articolo: in preparazione su Zenodo
+- Articolo (DOI): [10.5281/zenodo.24326182](https://doi.org/10.5281/zenodo.24326182)
