@@ -1,0 +1,13 @@
+# No weights in git
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+adapter_model.*
+.env
+**/.env
+**/env.sh
+__pycache__/
+.venv/

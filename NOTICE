@@ -1,0 +1,13 @@
+chem v5 (qwen3-8b-chem-v5)
+Copyright 2026 Giovanni Del Papa
+
+This QLoRA adapter is licensed under the Apache License, Version 2.0.
+See the LICENSE file.
+
+Base model: Qwen3-8B, (c) Alibaba Cloud / Qwen team, Apache-2.0
+https://huggingface.co/Qwen/Qwen3-8B
+
+Some training examples are derived from Wikipedia and are used under
+CC BY-SA 4.0. Share-alike obligations may apply to those materials;
+whether they extend to trained weights is an open legal question.
+This notice is provided so that users can make their own assessment.
